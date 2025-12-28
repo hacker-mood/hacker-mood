@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberSec Hub | Mi Portafolio</title>
+    <title>CyberSec Hub | FenixXD</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background-color: #0f0f0f; color: #00ff41; font-family: 'Courier New', Courier, monospace; }
-        .card { background-color: #1a1a1a; border: 1px solid #00ff41; color: white; }
-        .btn-cyber { background-color: transparent; border: 1px solid #00ff41; color: #00ff41; }
+        .card { background-color: #1a1a1a; border: 1px solid #00ff41; color: white; transition: 0.3s; }
+        .card:hover { border-color: #ffffff; box-shadow: 0 0 10px #00ff41; }
+        .btn-cyber { background-color: transparent; border: 1px solid #00ff41; color: #00ff41; font-weight: bold; }
         .btn-cyber:hover { background-color: #00ff41; color: black; }
-        /* Ajustamos el contenedor de anuncios para que se adapte al banner */
         .ad-space { 
             background: #111; 
             border: 1px dashed #333; 
@@ -19,14 +19,19 @@
             margin: 20px 0;
             overflow: hidden;
         }
+        .highlight { color: #fff; text-shadow: 0 0 5px #00ff41; }
+        hr { border-color: #333; }
     </style>
 </head>
 <body>
 
 <div class="container py-5">
     <header class="text-center mb-5">
-        <h1 class="display-4">_CYBER_PORTFOLIO</h1>
-        <p class="lead">Especialista en Seguridad | Kali Linux & Parrot OS Enthusiast</p>
+        <h1 class="display-4 highlight">_FENIX_SEC_HUB</h1>
+        <p class="lead">Pentesting | Virtualization Specialist | Kali & Parrot OS</p>
+        <div class="mt-3">
+            <a href="https://t.me/FenixXD" target="_blank" class="btn btn-cyber">Contactar vía Telegram</a>
+        </div>
     </header>
 
     <div class="ad-space">
@@ -45,29 +50,58 @@
     <div class="row">
         <div class="col-md-6 mb-4">
             <div class="card h-100 p-4">
-                <h3>> /Sobre_Mí</h3>
-                <p>Hola, soy [TU NOMBRE]. Me dedico a la investigación de seguridad y pentesting. Uso entornos virtuales como Kali y Parrot para pruebas de penetración éticas.</p>
-                <hr style="border-color: #00ff41;">
-                <p><strong>Contacto:</strong> <br>
-                Email: tu@email.com <br>
-                Telegram: @tu_usuario</p>
+                <h3>> /Quien_Soy</h3>
+                <p>Soy <span class="highlight">FenixXD</span>. Me dedico a la investigación de seguridad y despliegue de entornos controlados. Mi enfoque principal es el análisis de vulnerabilidades y la optimización de sistemas operativos para seguridad.</p>
+                <hr>
+                <p><strong>Status:</strong> <span class="badge bg-success text-dark">Online</span><br>
+                <strong>Telegram:</strong> @FenixXD</p>
             </div>
         </div>
 
         <div class="col-md-6 mb-4">
             <div class="card h-100 p-4">
-                <h3>> /Servicios</h3>
+                <h3>> /Servicios_Activos</h3>
                 <ul>
-                    <li>Auditoría de Aplicaciones Web</li>
-                    <li>Análisis de Vulnerabilidades</li>
-                    <li>Configuración de Redes Seguras</li>
+                    <li>Laboratorios de Pentesting</li>
+                    <li>Hardening de Máquinas Virtuales</li>
+                    <li>Consultoría en Privacidad Digital</li>
                 </ul>
-                <a href="https://t.me/tu_usuario" class="btn btn-cyber mt-3">Contratar Servicio</a>
+                <a href="https://t.me/FenixXD" class="btn btn-cyber w-100 mt-2">Solicitar Info</a>
             </div>
         </div>
     </div>
 
-    <div class="ad-space">
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card p-4">
+                <h2 class="text-center highlight">> /LAB_VIRTUAL_PROJECTS</h2>
+                <p class="text-center">Aquí documento el progreso, configuraciones y retos (CTFs) realizados en entornos virtuales.</p>
+                
+                <div class="row mt-3">
+                    <div class="col-md-4 mb-3 text-center">
+                        <div style="border: 1px solid #333; padding: 15px;">
+                            <h5 class="highlight">Kali Linux Labs</h5>
+                            <small>Configuraciones personalizadas y herramientas de ataque.</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-center">
+                        <div style="border: 1px solid #333; padding: 15px;">
+                            <h5 class="highlight">Windows Server Sec</h5>
+                            <small>Pruebas de Active Directory y escalada de privilegios.</small>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 text-center">
+                        <div style="border: 1px solid #333; padding: 15px;">
+                            <h5 class="highlight">Docker Hub Labs</h5>
+                            <small>Contenerización de aplicaciones vulnerables para práctica.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ad-space mt-5">
         <script type="text/javascript">
             atOptions = {
                 'key' : '0ab92b20b41f740c73fabd9568af0ca7',
@@ -83,7 +117,7 @@
 </div>
 
 <footer class="text-center py-4 text-muted">
-    <small>© 2024 Realizado por [TU NOMBRE] - Hosted on GitHub Pages</small>
+    <small>© 2025 Realizado por <strong>FenixXD</strong> - Security Portafolio</small>
 </footer>
 
 </body>

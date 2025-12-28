@@ -7,19 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body { background-color: #0b0b0b; color: #00ff41; font-family: 'Courier New', Courier, monospace; }
-        .lab-card { background-color: #111; border: 1px solid #444; padding: 20px; margin-bottom: 20px; }
-        .highlight { color: #fff; }
-        .btn-back { color: #00ff41; text-decoration: none; border: 1px solid #00ff41; padding: 5px 10px; }
-        .ad-space { background: #111; border: 1px dashed #333; padding: 10px; text-align: center; margin: 20px 0; }
+        .lab-card { background-color: #111; border: 1px solid #444; padding: 25px; margin-bottom: 25px; transition: 0.3s; }
+        .lab-card:hover { border-color: #00ff41; box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
+        .highlight { color: #fff; text-shadow: 0 0 5px #00ff41; }
+        .btn-cyber { color: #00ff41; text-decoration: none; border: 1px solid #00ff41; padding: 8px 15px; display: inline-block; margin-top: 10px; font-weight: bold; }
+        .btn-cyber:hover { background-color: #00ff41; color: black; }
+        .ad-space { background: #111; border: 1px dashed #333; padding: 10px; text-align: center; margin: 20px 0; overflow: hidden; }
     </style>
 </head>
 <body>
 
 <div class="container py-5">
-    <a href="index.html" class="btn-back"><- Volver al Inicio</a>
+    <a href="index.html" class="btn-cyber"><- Volver al Inicio</a>
     
     <h1 class="display-4 highlight mt-4">_VIRTUAL_LABS</h1>
-    <p>Documentación de pruebas en entornos controlados.</p>
+    <p class="lead">Documentación detallada de entornos controlados y pruebas de intrusión.</p>
 
     <div class="ad-space">
         <script type="text/javascript">
@@ -30,26 +32,33 @@
 
     <div class="lab-card">
         <h3 class="highlight">> Kali Linux Lab</h3>
-        <p>Pruebas de auditoría inalámbrica y herramientas personalizadas.</p>
-        </div>
+        <p>Pruebas de auditoría inalámbrica, escaneo de redes y explotación de servicios vulnerables.</p>
+        <a href="kali-lab.html" class="btn-cyber">Entrar a Documentación -></a>
+    </div>
 
     <div class="lab-card">
         <h3 class="highlight">> Windows Server Security</h3>
-        <p>Análisis de políticas de grupo y endurecimiento de Active Directory.</p>
+        <p>Análisis de políticas de grupo (GPO), Directorio Activo y pruebas de escalada de privilegios.</p>
+        <a href="windows-lab.html" class="btn-cyber">Entrar a Documentación -></a>
     </div>
 
     <div class="lab-card">
         <h3 class="highlight">> Network Analysis (Wireshark)</h3>
-        <p>Captura de tráfico y detección de protocolos inseguros.</p>
+        <p>Monitoreo de tráfico en tiempo real, análisis de protocolos y detección de intrusos.</p>
+        <a href="network-lab.html" class="btn-cyber">Entrar a Documentación -></a>
     </div>
 
-    <div class="ad-space">
+    <div class="ad-space mt-5">
         <script type="text/javascript">
             atOptions = {'key' : '0ab92b20b41f740c73fabd9568af0ca7','format' : 'iframe','height' : 90,'width' : 728,'params' : {}};
         </script>
         <script type="text/javascript" src="https://www.highperformanceformat.com/0ab92b20b41f740c73fabd9568af0ca7/invoke.js"></script>
     </div>
 </div>
+
+<footer class="text-center py-4 text-muted">
+    <small>© 2025 FenixXD - Virtual Lab Environment</small>
+</footer>
 
 </body>
 </html>

@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://hacker-mood.github.io/hacker-mood/sitemap.xml
+
+Sitemap: https://hacker-mood.github.io/sitemap.xml
